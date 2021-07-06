@@ -96,15 +96,24 @@ body{
 
 
 /* footer css starts */
-footer{
+#footer{
   padding-top: 3%;
   padding-bottom: 5%;
   background-color: #000;
   text-align: center;
 }
 
-footer p{
+#footer p{
   color: #fff;
+}
+
+#copyright{
+  padding-top: 0.5%;
+  padding-bottom: 1%;
+  text-align: center;
+  border-top: 1px solid #FB914A;
+  color: #fff;
+  background-color: #000;
 }
 /* footer css ends */
 
@@ -132,7 +141,6 @@ h1{
   color: #575757;
   font-size: 50px;
   font-weight: 700;
-  /* line-height: 1em; */
 }
 
 
