@@ -1,0 +1,136 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/* top two section main css starts */
+.flexible-container{
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+.half_top_inner{
+  width: 50%;
+  padding: 2.5% 2.5%;
+}
+
+.half_top_inner img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#img-1{
+  width: 90%;
+}
+
+#img-2{
+  width: 60%;
+  margin-bottom: -37px;
+}
+
+#second-section{
+  background-image: url(./images/shapes/7.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+#second-section p{
+  line-height: 2rem;
+}
+
+/* top two section main css ends */
+
+
+/* button styling css starts*/
+.button{
+  margin-top: 50px;
+}
+
+.style-btn{
+  text-decoration: none;
+  color: #fff;
+  background-image: linear-gradient(270deg, #FB954B, #FE4C30);
+  padding: 15px 45px;
+  border-radius: 50px;
+}
+/* button styling css ends*/
+
+
+/* third-section starts here */
+#third-section{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.third_inner_sections{
+  display: flex;
+  justify-content: center;
+}
+
+.recipie-card{
+  width: 15%;
+  margin: 1% 1.1%;
+  padding: 0.8% 0.8%;
+  border-radius: 35px;
+  box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.2) ;
+  background-color: white;
+
+}
+
+#third-section p{
+  color: #575757;
+  margin-top: -15px;
+}
+
+.recipie-card img{
+  width: 100%;
+}
+/* third-section ends here */
+
+
+/* footer css starts */
+footer{
+  padding-top: 3%;
+  padding-bottom: 5%;
+  background-color: #000;
+  text-align: center;
+}
+
+footer p{
+  color: #fff;
+}
+/* footer css ends */
+
+
+/* extra-font related css */
+.text-center-align{
+  text-align: center;
+}
+
+h3{
+  color: #676767;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+h4{
+  font-size: 20px;
+}
+
+.span-color{
+  color: #FC8F4A;
+}
+
+h1{
+  color: #575757;
+  font-size: 50px;
+  font-weight: 700;
+  /* line-height: 1em; */
+}
